@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Source Code Pro", monospace;
+  background-image: linear-gradient(45deg, #c0b1f7, #ffddd6);
+}
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+.input-container {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h3 {
+  margin-bottom: 2vh;
+}
+.output-container {
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+.output {
+  width: 80%;
+  margin: auto;
+  word-wrap: break-word;
+  text-align: justify;
+  font-size: 1.2rem;
+}
+.input {
+  width: 80%;
+}
+.input input {
+  font-family: "Source Code Pro", monospace;
+  width: 100%;
+  padding: 0.5rem;
+  font-weight: 800;
+  margin-bottom: 2vh;
+  color: black;
+  border: 3px solid black;
+}
+.btn-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2vh;
+}
+.btn-container button {
+  width: 70%;
+  font-size: 1.5rem;
+  color: black;
+  border: 3px solid black;
+  font-weight: 800;
+  box-shadow: 5px 5px black;
+  cursor: pointer;
+  background-color: #aafb00;
+}
+@media screen and (min-width: 900px) {
+  .input {
+    width: 60%;
+  }
+  .input input {
+    padding: 0.7rem;
+  }
+  .btn-container button {
+    width: 40%;
+    padding: 0.5rem 0;
+  }
+  .output {
+    width: 60%;
+  }
+}
