@@ -15,8 +15,6 @@ tell it in absolute too
 # Features
 Uses right emoji or graphics to show profit/loss
 
-Change the entire theme of the app to sad if someone has lost more than 50%?
-
 Verifies if the user has no empty inputs. 
 
 # Tech Stack Used
