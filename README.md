@@ -13,11 +13,11 @@ tell it in percentage
 tell it in absolute too
 
 # Features
-use right emoji or graphics to show profit/loss
+Uses right emoji or graphics to show profit/loss
 
-can you change the entire theme of the app to sad if someone has lost more than 50%?
+Change the entire theme of the app to sad if someone has lost more than 50%?
 
-Add a check to see if the user has no empty inputs. 
+Verifies if the user has no empty inputs. 
 
 # Tech Stack Used
 React JS
