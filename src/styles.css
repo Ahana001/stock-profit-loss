@@ -76,4 +76,10 @@ h3 {
   .output {
     width: 60%;
   }
+  .App {
+    flex-direction: column;
+  }
+  .input-container .output-container {
+    width: 100%;
+  }
 }
