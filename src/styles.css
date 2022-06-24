@@ -69,6 +69,7 @@ h3 {
     width: 100%;
   }
   .output {
+    margin-top: 4vh;
     width: 100%;
   }
   .input input {
@@ -81,7 +82,7 @@ h3 {
   .App {
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
   }
   .input-container .output-container {
     width: 100%;
