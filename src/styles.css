@@ -28,14 +28,14 @@ h3 {
   align-items: center;
 }
 .output {
-  width: 80%;
+  width: 70%;
   margin: auto;
   word-wrap: break-word;
   text-align: justify;
   font-size: 1.2rem;
 }
 .input {
-  width: 80%;
+  width: 50%;
 }
 .input input {
   font-family: "Source Code Pro", monospace;
@@ -54,7 +54,7 @@ h3 {
   margin-top: 2vh;
 }
 .btn-container button {
-  width: 70%;
+  width: 40%;
   font-size: 1.5rem;
   color: black;
   border: 3px solid black;
@@ -62,23 +62,26 @@ h3 {
   box-shadow: 5px 5px black;
   cursor: pointer;
   background-color: #aafb00;
+  padding: 0.5rem 0;
 }
-@media screen and (min-width: 900px) {
+@media screen and (max-width: 800px) {
   .input {
-    width: 60%;
+    width: 80%;
   }
   .input input {
-    padding: 0.7rem;
+    padding: 0.2rem;
   }
   .btn-container button {
     width: 40%;
-    padding: 0.5rem 0;
+    padding: 0.1rem 0;
   }
   .output {
-    width: 60%;
+    width: 80%;
   }
   .App {
     flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
   }
   .input-container .output-container {
     width: 100%;
