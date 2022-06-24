@@ -1,4 +1,4 @@
-# stock-profit-loss
+# stock-profit-loss  📈 
 # profit or loss on your stock?
 Take user's stock price for one stock when he bought it
 
