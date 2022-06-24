@@ -59,18 +59,17 @@ h3 {
   color: black;
   border: 3px solid black;
   font-weight: 800;
-  box-shadow: 5px 5px black;
   cursor: pointer;
   background-color: #aafb00;
   padding: 0.5rem 0;
 }
 @media screen and (max-width: 800px) {
   .input {
-    width: 100%;
+    width: 80%;
   }
   .output {
     margin-top: 4vh;
-    width: 100%;
+    width: 80%;
   }
   .input input {
     padding: 0.2rem;
@@ -84,7 +83,10 @@ h3 {
     align-items: center;
     justify-content: center;
   }
-  .input-container .output-container {
+  .input-container {
+    width: 100%;
+  }
+  .output-container {
     width: 100%;
   }
 }
