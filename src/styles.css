@@ -68,15 +68,15 @@ h3 {
   .input {
     width: 100%;
   }
+  .output {
+    width: 100%;
+  }
   .input input {
     padding: 0.2rem;
   }
   .btn-container button {
     width: 40%;
     padding: 0.1rem 0;
-  }
-  .output {
-    width: 100%;
   }
   .App {
     flex-direction: column;
