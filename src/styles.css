@@ -63,11 +63,32 @@ h3 {
   background-color: #aafb00;
   padding: 0.5rem 0;
 }
-@media screen and (max-width: 800px) {
+@keyframes sprinkle {
+  0% {
+    color: red;
+  }
+  25% {
+    color: yellow;
+  }
+  50% {
+    color: blue;
+  }
+  100% {
+    color: purple;
+  }
+}
+
+.animated-element {
+  margin: 0 0.5rem;
+  animation: sprinkle;
+  animation-duration: 2s infinite;
+}
+@media screen and (max-width: 678px) {
   .input {
     width: 80%;
   }
   .output {
+    margin: auto;
     margin-top: 4vh;
     width: 80%;
   }
