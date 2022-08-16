@@ -8,7 +8,7 @@ export default function App() {
     var init = Number(event.target.init.value);
     var current = Number(event.target.current.value);
     var quatity = Number(event.target.quatity.value);
-    if (isNaN(init) || isNaN(current) || isNaN(quatity)) {
+    if (isNaN(init) || isNaN(current)) {
       setColor("black");
       setMessage(`invalid inputs`);
     } else if (quatity === 0) {
@@ -51,7 +51,7 @@ export default function App() {
           <input
             autoComplete="off"
             id="quatity"
-            type="text"
+            type="number"
             placeholder="Enter Number of Stocks here"
             required
           />
